@@ -1,0 +1,9 @@
+
+.nav-bar {
+    width: auto;
+    height: 25px;
+    margin: 5px;
+    background-color: rgba(45, 41, 51, 0.5) ;
+    backdrop-filter: blur(15px);
+}
+
