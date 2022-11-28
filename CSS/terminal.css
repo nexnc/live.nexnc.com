@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&family=Source+Code+Pro&display=swap');
+
+.terminal-text {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+}

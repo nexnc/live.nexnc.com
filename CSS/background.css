@@ -1,0 +1,16 @@
+body {
+    margin: 0 ;
+    padding: 0 ;
+    background-image: url('/Media-Files/main-background.jpg') ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    background-color: #131316 ;
+    position: relative ;
+}
+.terminal-background {
+    width: auto ;
+    height: 93vh ;
+    margin: 5px ;
+    background-color: rgba(36, 32, 41, 0.5) ;
+    backdrop-filter: blur(15px) ;
+}
