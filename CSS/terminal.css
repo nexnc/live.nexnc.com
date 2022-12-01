@@ -8,3 +8,17 @@
     font-weight: 600;
     font-size: 20px;
 }
+.terminal-input {
+    font-family: 'Source Code Pro', monospace;
+    color: #ffffff;
+    font-size: 20px ;
+    font-weight: 600;
+    border: 0;
+    background-color: transparent;
+    outline: transparent;
+    width: max-content;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.07fr 2fr;
+}
