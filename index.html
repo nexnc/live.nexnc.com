@@ -4,14 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <meta
-      http-equiv="refresh"
-      content="0;url=https://live.nexnc.com/terminal.html"
-    />
-    <title>Document</title>
+    <title>Konsole</title>
+    <link rel="stylesheet" href="CSS/background.css" />
+    <link rel="stylesheet" href="CSS/main-style.css" />
+    <link rel="stylesheet" href="CSS/terminal.css" />
   </head>
   <body>
-    <h1>Loading...</h1>
+    <script src="/Scripts/terminal.js" defer></script>
+    <div class="nav-bar"></div>
+    <div class="terminal-background">
+      <div class="terminal-text">
+        <div class="grid-container">
+          <div class="cons-terminal-text">
+            <span style="color: aqua">~</span>
+            <span style="color: green">$</span>
+          </div>
+          <input
+            id="input-data"
+            class="terminal-input"
+            width="200px"
+            value=""
+            maxlength="100"
+            onkeydown="keyChecker(this)"
+          />
+        </div>
+      </div>
+    </div>
   </body>
 </html>

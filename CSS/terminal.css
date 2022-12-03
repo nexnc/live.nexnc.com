@@ -16,7 +16,8 @@
     border: 0;
     background-color: transparent;
     outline: transparent;
-    width: max-content;
+    width: 100%;
+    margin-right: 5px;
 }
 .grid-container {
     display: grid;
